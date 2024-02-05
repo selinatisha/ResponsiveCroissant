@@ -1,0 +1,34 @@
+:root {
+  --primary-color: #ffe9e3;
+  --secondary-color: #c4c1e0;
+}
+
+img {
+  display: block;
+  margin: 30px auto;
+  border-radius: 10%;
+}
+.body {
+  background-color: var(--primary-color);
+}
+h1 {
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.header {
+  color: var(--secondary-color);
+}
+.links {
+  text-align: center;
+  color: #c4c1e0;
+}
+.links a {
+  color: #938aea;
+}
+.links a:hover {
+  color: #e111a3;
+}
